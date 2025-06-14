@@ -12,7 +12,7 @@ This repository contains MATLAB scripts to generate synthetic, physically accura
 
 ![Amp vs Antenna vs SC](./docs/amp_vs_antenna_idx_vs_sub_idx.png)
 
-![Amp vs Time](./docs/png/amp_vs_time.png)
+![Amp vs Time](./docs/amp_vs_time.png)
 
 ---
 
