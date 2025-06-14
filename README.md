@@ -2,11 +2,17 @@
 
 This repository contains MATLAB scripts to generate synthetic, physically accurate, **3D spatio-temporal-frequency channel state information (CSI) datasets** for MISO-OFDM systems, using the [QuaDRiGa](https://quadriga-channel-model.de/) channel simulator with standardized **3GPP channel models**. These datasets are ideal for training and benchmarking deep learning-based CSI prediction, beamforming, and wireless AI models in realistic 5G (and beyond) scenarios.
 
+![Project overview](./docs/overview.png)
+
 ## Overview
 
 * **Generates 19 diverse datasets (D1–D19)** spanning various frequencies (1.5–28 GHz), antenna arrays, channel scenarios, and user mobility conditions.
 * **Each dataset** contains 12,000 CSI samples, each representing the time evolution of a moving user’s MISO-OFDM channel over several subcarriers and timesteps.
 * **Samples are split** into training (9k), validation (1k), and test (2k) sets, standardized, and corrupted with 20dB SNR noise for realism.
+
+![Amp vs Antenna vs SC](./docs/amp_vs_antenna_idx_vs_sub_idx.png)
+
+![Amp vs Time](./docs/png/amp_vs_time.png)
 
 ---
 
