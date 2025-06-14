@@ -1,8 +1,4 @@
-Here’s a comprehensive **README.md-style documentation** suitable for GitHub for your 3D CSI dataset generation code, **explaining every detail** for reproducibility, adaptation, and understanding. This assumes readers have a signal processing/wireless background and basic MATLAB knowledge.
-
----
-
-# 3D Spatio-Temporal-Frequency CSI Dataset Generator (QuaDRiGa, MATLAB)
+# 3D Spatio-Temporal-Frequency CSI Dataset Generator (STF-CSIgen)
 
 This repository contains MATLAB scripts to generate synthetic, physically accurate, **3D spatio-temporal-frequency channel state information (CSI) datasets** for MISO-OFDM systems, using the [QuaDRiGa](https://quadriga-channel-model.de/) channel simulator with standardized **3GPP channel models**. These datasets are ideal for training and benchmarking deep learning-based CSI prediction, beamforming, and wireless AI models in realistic 5G (and beyond) scenarios.
 
@@ -166,8 +162,4 @@ See [QuaDRiGa](https://quadriga-channel-model.de/) for full channel model detail
 ---
 
 **Feel free to fork, adapt, or open issues for clarification or new feature requests.**
-
----
-
-Let me know if you want additional sections such as "How to extend this dataset to MIMO/multicell", a **FAQ**, or a "How to load and use the datasets in PyTorch"!
 
