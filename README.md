@@ -156,7 +156,7 @@ For a single sample (debug printout):
 
 ## Citation
 
-If you use these scripts or datasets in your research, please cite [QuaDRiGa](https://quadriga-channel-model.de/).
+If you use these scripts or datasets in your research, please cite Hamadouche A, Sellathurai M. Context-Aware CSI Tracking and Path Loss Prediction Using Machine Learning and Dynamical Systems. arXiv preprint arXiv:2407.20123. 2024 Jul 29.
 
 ---
 
