@@ -133,7 +133,11 @@ for d = 11:N_DATASETS
     train_csi = csi_data(:,:,:,train_idx);
     val_csi   = csi_data(:,:,:,val_idx);
     test_csi  = csi_data(:,:,:,test_idx);
-    dataset_name = sprintf('D%d_csi.mat', d);
+    
+    % Ensure ./data/ exists!
+    if ~exist('./data', 'dir'), mkdir('./data'); end
+    dataset_name = sprintf('./data/D%d_csi.mat', d);
+     
     save(dataset_name, 'train_csi', 'val_csi', 'test_csi', 'data_mean', 'data_std', '-v7.3');
     fprintf('Saved %s\n', dataset_name);
 end
